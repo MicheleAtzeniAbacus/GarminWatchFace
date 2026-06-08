@@ -1,5 +1,7 @@
 # GarminWatchFace
 
+<img src="resources/drawables/images/shot.png" width="300"/>
+
 A custom Garmin Connect IQ watch face for the **Forerunner 55**, built with Monkey C.
 
 ## Features
@@ -9,10 +11,6 @@ A custom Garmin Connect IQ watch face for the **Forerunner 55**, built with Monk
 - Battery percentage at the top in accent lime/green (`#C8E600`)
 - Heart rate with icon (bottom left)
 - Step count with icon, formatted as `55.8k` for values ≥ 1 000 (bottom right)
-
-## Preview
-
-![Watch face preview](resources/drawables/images/icons8-heart-50.png)
 
 ## Requirements
 
@@ -42,8 +40,8 @@ resources/
 
 ## Supported Devices
 
-| Device | ID |
-|--------|----|
+| Device        | ID     |
+| ------------- | ------ |
 | Forerunner 55 | `fr55` |
 
 Additional devices can be added by inserting `<iq:product id="..."/>` entries in `manifest.xml`.
