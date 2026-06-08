@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+  <iq:application
+    entry="GarminWatchFaceApp"
+    id="a3421fed-1234-4321-abcd-efabcdef1234"
+    launcherIcon="@Drawables.LauncherIcon"
+    name="@Strings.AppName"
+    minSdkVersion="3.4.0"
+    type="watchface"
+    version="1.0.0">
+    <iq:products>
+       <iq:product id="fr55"/>
+    </iq:products>
+    <iq:permissions>
+      <iq:uses-permission id="UserProfile"/>
+    </iq:permissions>
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+  </iq:application>
+</iq:manifest>

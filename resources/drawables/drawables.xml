@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="images/icon.png"/>
+    <bitmap id="HrIcon" filename="images/icons8-heart-50.png">
+        <palette>
+            <color>C8E600</color>
+        </palette>
+    </bitmap>
+    <bitmap id="StepsIcon" filename="images/icons8-futurama-bender-50.png">
+        <palette>
+            <color>C8E600</color>
+        </palette>
+    </bitmap>
+</resources>
