@@ -54,7 +54,7 @@ class GarminWatchFaceView extends WatchUi.WatchFace {
         var hr = 0;
         var activity = Activity.getActivityInfo();
         if (activity != null && activity.currentHeartRate != null) {
-            hr = 120; //activity.currentHeartRate;
+            hr = activity.currentHeartRate;
         }
 
         // Steps
