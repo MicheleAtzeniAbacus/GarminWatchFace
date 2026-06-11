@@ -7,7 +7,7 @@
     name="@Strings.AppName"
     minSdkVersion="3.4.0"
     type="watchface"
-    version="1.0.1">
+    version="1.0.2">
     <iq:products>
        <iq:product id="fr55"/>
     </iq:products>
